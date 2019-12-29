@@ -4,6 +4,7 @@ require 'pry'
 
 def find_item_by_name_in_collection(name, collection)
   i = 0
+<<<<<<< HEAD
     while i < collection.length do 
       if collection[i][:item] == name 
          return collection[i]
@@ -36,6 +37,25 @@ def consolidate_cart(cart)
   end
  new_cart
 end
+=======
+   
+     while i < collection.length do 
+      if collection[i][:item] == name 
+         return collection[i]
+         i += 1
+    end 
+   nil
+ end
+
+
+def consolidate_cart(cart)
+
+ end
+
+
+
+
+>>>>>>> 2286bc73d623f07ae7aaee62dc4ce8cfa0024520
 
 
 
